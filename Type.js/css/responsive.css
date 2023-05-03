@@ -1,0 +1,299 @@
+@media (max-width:1146px) {
+    .section{
+        height: 120vh;
+    }
+    header{
+        padding:65px 0 45px 0;
+    }
+    .sticky{
+        padding: 40px 10px 35px 40px;
+    }
+    
+    .mainheader{
+        width:97%
+    }
+    .mianHeader #logo{
+        margin-left:20px;
+    }
+    .header .darkLight{
+        margin-right:-60px;
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+    }
+    #home .info{
+        width:97%;
+    }
+    #home #homeImg{
+        margin-top:-6%;
+        margin-right:3%;
+    }
+    #about{
+        display: flex;
+        flex-direction: column-reverse;
+        padding:0 20px 0 100px;
+    }
+    #about .aboutInfo h2{
+        margin:100px 0 20px 0;
+    }
+
+    #about #aboutImg{
+        width:380px;
+        margin-right:5%;
+        margin-left:-3%;
+    }
+    
+    #service .serviceInfo .heading{
+        margin-top:10%;
+    }
+    #service .serviceInfo .serviceContent .content p{
+        font-size:10px;
+    }
+
+    #portfolio .portfolioInfo .heading{
+        margin-top:20%;
+    }
+
+    #contact .contactInfo .heading{
+        margin-top:10%;
+    }
+    
+}
+
+@media (max-width:1090px) {
+    #service .serviceInfo .heading{
+        margin-top:5%;
+    }
+    #service .serviceInfo .serviceContent{
+        width:95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #service .serviceInfo .serviceContent .content{
+        width:90%;
+        margin: 40px 30px 0 0;
+        padding:20px 40px;
+    }
+    #service .serviceInfo .serviceContent .content:nth-child(1){
+        width:42%;
+    }
+    #service .serviceInfo .serviceContent .content:nth-child(2){
+        width:42%;
+    }
+
+    #portfolio{
+        height: 100vh;
+        padding:0 20px;
+        background-color: var(--sec-bg-color);
+    }
+    #portfolio .portfolioInfo .heading{
+        margin:10% 0 5% 0;
+    }
+
+    #contact{
+        height: 100vh;
+    }
+
+    #contact .contactInfo .heading{
+        margin:1% 0 5% 0;
+    }
+
+    #contact .contactInfo form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin:2% 0;
+    }
+}
+
+@media (max-width:1090px){
+    header{
+        padding:60px 0 45px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .sticky{
+        padding: 65px 0px 0px 0px;
+    }
+    .header .darkLight{
+        position: absolute;
+        top:20px;
+    }
+    .mianHeader{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0 0 0;
+        height: 0;
+    }
+    .mainHeight{
+        height: 479px !important;
+    }
+    .mianHeader .logoMenu{
+        width:105%;
+        display: flex;
+        margin-top:-6%;
+        justify-content: space-between;
+        transition: 1s ease;
+    }
+    .mianHeader .logoMenu .openClose #openMenu{
+        display: block;
+    }
+    .mianHeader .navMenu{
+        width:calc(100% + 90px);
+        margin-top: -10px;
+        display: block;
+        flex-direction: column-reverse;
+        background-color:var(--sec-bg-color);
+        transition: 1s ease;
+    }
+    .navShow{
+        transform: translateY(-120%);
+        opacity: 0;
+    }
+    .mianHeader .navMenu nav{
+        width:80%;
+        display: flex;
+        flex-direction: column;
+        margin:0px 0 0 6%;
+    }
+
+    .mianHeader .navMenu nav a{
+        width:100%;
+        font-size:20px;
+        margin:10px 0 10px 0%;
+    }
+
+}
+
+
+@media (max-width:670px){
+    .mianHeader{
+        width:100%;
+    }
+
+    .mianHeader .logoMenu{
+        margin-top:-10%;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mianHeader #logo{
+        margin-left:3px;
+    }
+    .mianHeader .navMenu nav a{
+        margin-left:20px;
+
+    }   
+    #home .info{
+        width:97%;
+        margin:5% 0 0 10px;
+    }
+    
+    #about{
+        display: flex;
+        flex-direction: column-reverse;
+        padding:0 10px;
+    }
+
+    #about #aboutImg{
+        width:280px;
+    }
+
+    #service{
+        height: 140vh;
+    }
+
+    #service .serviceInfo .heading{
+        margin-top:-7%;
+    }
+    #service .serviceInfo .serviceContent .content{
+        height:258px;
+        margin: 40px 10px 0 0;
+        padding:10px 20px;
+    }
+    #service .serviceInfo .serviceContent .content:nth-child(1){
+        width:90%;
+    }
+    #service .serviceInfo .serviceContent .content:nth-child(2){
+        width:90%;
+    }
+    #service .serviceInfo .serviceContent .content p{
+        font-size:9px;
+    }
+    #portfolio .portfolioInfo .portfolioContent .content{
+        width: 47%;
+        height: 178px;
+    }
+    #portfolio .portfolioInfo .portfolioContent .content .contentData{
+        padding:5px 0px;
+        margin-top:5px;
+    }
+    #portfolio .portfolioInfo .portfolioContent .content h2{
+        font-size:25px;
+    }
+    #portfolio .portfolioInfo .portfolioContent .content p{
+        width:85%;
+        margin-left:6%;
+        font-size:13.5px;
+    }
+
+}
+@media (max-width:570px){
+    .mianHeader .logoMenu{
+        margin-top:-12%;
+    }
+}
+
+
+@media (max-width:520px){
+    .mianHeader .logoMenu{
+        margin-top:-14%;
+    }
+
+    #portfolio{
+        height: 170vh;
+    }
+    #portfolio .portfolioInfo .portfolioContent .content{
+        width: 87%;
+        height: 178px;
+    }
+
+    #portfolio .portfolioInfo .portfolioContent .content p{
+        margin-bottom:40px;
+    }
+    #contact{
+        height: 120vh;
+    }
+    #contact .contactInfo form input{
+        width:84%;
+    }
+
+    #contact .contactInfo form #submit{
+        width:27%;
+    }
+}
+
+@media (max-width:350px){
+    .mianHeader .logoMenu{
+        margin-top:-20%;
+    }
+    .mianHeader .navMenu nav a{
+        margin-left:30px;
+
+    }   
+    #service .serviceInfo .serviceContent .content p{
+        font-size:9px;
+    }
+    #portfolio .portfolioInfo .portfolioContent .content p{
+        margin-bottom:20px;
+    }
+    #contact .contactInfo form #submit{
+        width:57%;
+    }
+}
